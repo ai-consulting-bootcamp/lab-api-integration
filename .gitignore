@@ -1,0 +1,12 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.pytest_cache/
+.llm-rate-limit.sqlite3*
+.llm-budget.sqlite3*
+!.env.example
+.vscode/
+.venv/
