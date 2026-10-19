@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Column | The surprising way walking can benefit your brain - The Washington Post",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVmdMd0s0NXZqcTlqVHhHV1JpZGxEMVk4TVJHb2pHZEdlUEdFdWdTcENKc1kxT1hsWVdGWGltVTM2Qi1UXzZXbEdIUFRaWmpoNzBJelFCVFo1clpObHY1ZGE3MHVITzE3ZEZPdmMwQTJYZVNMZXlCcHlpV2I5SlpOZkQxbVpPcHJuNnlNRjc4aThMVDA?oc=5",
+    "summary": "The article discusses unexpected benefits of walking for brain health. It highlights how this simple activity can positively impact cognitive function.",
+    "sentiment": "positive",
+    "summary_provider": "openai",
+    "sentiment_provider": "cohere",
+    "title_only": true
+  },
+  {
+    "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience - BBC",
+    "source": "BBC News",
+    "url": "https://www.bbc.com/future/article/20261016-the-shocking-truths-about-an-infamous-experiment-in-obedience",
+    "summary": "A recent analysis of obedience experiments reveals that a staggering 97.4% of participants were willing to administer painful electric shocks to others when instructed, highlighting a concerning tendency for people to follow authority figures. This finding echoes the infamous Milgram experiment, demonstrating that obedience can often override personal morals and ethics.",
+    "sentiment": "negative",
+    "summary_provider": "openai",
+    "sentiment_provider": "cohere",
+    "title_only": false
+  }
+]

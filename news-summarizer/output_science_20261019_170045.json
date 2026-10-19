@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Column | The surprising way walking can benefit your brain - The Washington Post",
+    "source": "Google News",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVmdMd0s0NXZqcTlqVHhHV1JpZGxEMVk4TVJHb2pHZEdlUEdFdWdTcENKc1kxT1hsWVdGWGltVTM2Qi1UXzZXbEdIUFRaWmpoNzBJelFCVFo1clpObHY1ZGE3MHVITzE3ZEZPdmMwQTJYZVNMZXlCcHlpV2I5SlpOZkQxbVpPcHJuNnlNRjc4aThMVDA?oc=5",
+    "summary": "The article discusses the unexpected benefits of walking for brain health. It highlights how walking can positively impact cognitive function.",
+    "sentiment": "positive",
+    "summary_provider": "openai",
+    "sentiment_provider": "cohere",
+    "title_only": true,
+    "unsupported_numbers": []
+  },
+  {
+    "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience - BBC",
+    "source": "BBC News",
+    "url": "https://www.bbc.com/future/article/20261016-the-shocking-truths-about-an-infamous-experiment-in-obedience",
+    "summary": "A recent analysis of obedience experiments reveals that a vast majority of participants are willing to follow authority figures, with only 2.6% of nearly 800 volunteers refusing to administer shocks to others. This finding highlights the unsettling extent to which individuals comply with directives, even when they conflict with their moral beliefs.",
+    "sentiment": "negative",
+    "summary_provider": "openai",
+    "sentiment_provider": "cohere",
+    "title_only": false,
+    "unsupported_numbers": []
+  },
+  {
+    "title": "Earth's Core Is Leaking All Sorts of Materials That Have Been Trapped Since Our Planet's Birth - ScienceAlert",
+    "source": "ScienceAlert",
+    "url": "https://www.sciencealert.com/earths-core-is-leaking-all-sorts-of-materials-that-have-been-trapped-since-our-planets-birth",
+    "summary": "Scientists have discovered that Earth's core is leaking various materials that have been trapped since the planet's formation, providing insights into its early conditions. This finding sheds light on the planet's geological history and the processes that shaped its development over billions of years.",
+    "sentiment": "positive",
+    "summary_provider": "openai",
+    "sentiment_provider": "cohere",
+    "title_only": false,
+    "unsupported_numbers": []
+  }
+]
