@@ -1,0 +1,17 @@
+mode=simulated/offline
+trace_id=simulated_offline_fallback_20261020_b67c973f
+case=openai_to_cohere
+{"primary_provider": "openai", "fallback_provider": "cohere", "result_provider": "cohere", "result_model": "command-r7b-12-2024", "text": "cohere fallback answer", "input_tokens": 11, "output_tokens": 4, "estimated_cost_usd": "0.000001"}
+case=cohere_to_openai
+{"primary_provider": "cohere", "fallback_provider": "openai", "result_provider": "openai", "result_model": "gpt-4o-mini", "text": "openai fallback answer", "input_tokens": 8, "output_tokens": 3, "estimated_cost_usd": "0.000003"}
+logs:
+task=offline fallback demo openai->cohere provider=openai model=gpt-4o-mini attempt=1 phase=primary
+task=offline fallback demo openai->cohere provider=openai model=gpt-4o-mini attempt=1 phase=primary error=Timeout retryable=False
+task=offline fallback demo openai->cohere provider=openai model=gpt-4o-mini switching_to_fallback=true error=Timeout
+task=offline fallback demo openai->cohere provider=cohere model=command-r7b-12-2024 attempt=1 phase=fallback
+task=offline fallback demo openai->cohere provider=cohere model=command-r7b-12-2024 attempt=1 phase=fallback usage=input=11 output=4 estimated_cost_usd=0.000001
+task=offline fallback demo cohere->openai provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary
+task=offline fallback demo cohere->openai provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary error=Timeout retryable=False
+task=offline fallback demo cohere->openai provider=cohere model=command-r7b-12-2024 switching_to_fallback=true error=Timeout
+task=offline fallback demo cohere->openai provider=openai model=gpt-4o-mini attempt=1 phase=fallback
+task=offline fallback demo cohere->openai provider=openai model=gpt-4o-mini attempt=1 phase=fallback usage=input=8 output=3 estimated_cost_usd=0.000003

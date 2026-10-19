@@ -1,0 +1,44 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- python
+cachedir: .pytest_cache
+rootdir: .
+plugins: anyio-4.12.1
+collecting ... collected 35 items
+
+test_main.py::test_main_uses_defaults_in_interactive_mode PASSED         [  2%]
+test_main.py::test_main_rejects_invalid_count_argument_without_calls PASSED [  5%]
+test_main.py::test_main_full_success_with_arguments_and_evidence PASSED  [  8%]
+test_main.py::test_main_partial_success_when_not_enough_articles PASSED  [ 11%]
+test_main.py::test_main_partial_success_on_article_error PASSED          [ 14%]
+test_summarizer.py::test_get_config_reads_values_and_keeps_repr_safe PASSED [ 17%]
+test_summarizer.py::test_get_config_reports_all_missing_keys[environ0-expected_fragments0] PASSED [ 20%]
+test_summarizer.py::test_get_config_reports_all_missing_keys[environ1-expected_fragments1] PASSED [ 22%]
+test_summarizer.py::test_get_config_reports_all_missing_keys[environ2-expected_fragments2] PASSED [ 25%]
+test_summarizer.py::test_get_config_rejects_invalid_numbers[MAX_RETRIES--1-MAX_RETRIES] PASSED [ 28%]
+test_summarizer.py::test_get_config_rejects_invalid_numbers[REQUEST_TIMEOUT-0-REQUEST_TIMEOUT] PASSED [ 31%]
+test_summarizer.py::test_get_config_rejects_invalid_numbers[DAILY_BUDGET-nan-DAILY_BUDGET] PASSED [ 34%]
+test_summarizer.py::test_newsapi_success_preserves_raw_and_reports_diagnostics PASSED [ 37%]
+test_summarizer.py::test_newsapi_empty_output_returns_empty_list PASSED  [ 40%]
+test_summarizer.py::test_newsapi_skips_removed_title_and_keeps_valid_article PASSED [ 42%]
+test_summarizer.py::test_newsapi_401_does_not_retry PASSED               [ 45%]
+test_summarizer.py::test_newsapi_timeout_then_success_retries_once PASSED [ 48%]
+test_summarizer.py::test_newsapi_timeout_exhausts_retries PASSED         [ 51%]
+test_summarizer.py::test_newsapi_invalid_json_raises_safe_error PASSED   [ 54%]
+test_summarizer.py::test_openai_adapter_extracts_usage_and_text PASSED   [ 57%]
+test_summarizer.py::test_cohere_adapter_extracts_usage_and_text PASSED   [ 60%]
+test_summarizer.py::test_llm_fallback_openai_to_cohere_counts_invalid_attempt_once PASSED [ 62%]
+test_summarizer.py::test_llm_fallback_cohere_to_openai PASSED            [ 65%]
+test_summarizer.py::test_llm_both_providers_fail PASSED                  [ 68%]
+test_summarizer.py::test_llm_retries_rate_limit_and_sleep_without_real_wait PASSED [ 71%]
+test_summarizer.py::test_llm_budget_persists_between_instances_and_blocks_without_fallback PASSED [ 74%]
+test_summarizer.py::test_llm_budget_resets_on_new_day PASSED             [ 77%]
+test_summarizer.py::test_collect_articles_separates_actual_discards_from_limit_skips PASSED [ 80%]
+test_summarizer.py::test_collect_articles_reports_duplicate_urls_and_limit_skips PASSED [ 82%]
+test_summarizer.py::test_summarizer_passes_exact_summary_to_sentiment_stage PASSED [ 85%]
+test_summarizer.py::test_summarizer_marks_title_only_limitations PASSED  [ 88%]
+test_summarizer.py::test_summarizer_does_not_turn_invalid_sentiment_into_neutral PASSED [ 91%]
+test_summarizer.py::test_summarizer_keeps_other_articles_when_one_fails PASSED [ 94%]
+test_summarizer.py::test_summarizer_stops_when_budget_is_exhausted PASSED [ 97%]
+test_summarizer.py::test_summarizer_collect_articles_returns_actual_selection_counts_without_llm PASSED [100%]
+
+============================= 35 passed in 2.82s ==============================

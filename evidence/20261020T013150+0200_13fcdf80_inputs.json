@@ -1,0 +1,53 @@
+{
+  "category": "technology",
+  "count": 3,
+  "selection_report": {
+    "requested": 5,
+    "received": 4,
+    "discarded": 0,
+    "selected": 3,
+    "not_selected_due_to_limit": 1,
+    "discard_reasons": {}
+  },
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "PhoneArena"
+      },
+      "author": "PhoneArena",
+      "title": "Apple Store plans reveal when the OLED iPad mini will likely go on sale - PhoneArena",
+      "description": null,
+      "url": "https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132",
+      "urlToImage": null,
+      "publishedAt": "2026-10-18T19:53:53Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Techpowerup.com"
+      },
+      "author": null,
+      "title": "New Tools Let Users Edit and Load Modified VBIOS on GeForce RTX GPUs Without Flashing - TechPowerUp",
+      "description": "A developer who goes by Panchovix has released three tools that let NVIDIA GeForce RTX 50, RTX 40, and RTX 30-series owners run a modified VBIOS without writing anything to the card's flash chip. The first is a VBIOS editor for Windows and Linux that can chan…",
+      "url": "https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing",
+      "urlToImage": "https://www.techpowerup.com/img/SB1pKTE8BfCEeWMc.jpg",
+      "publishedAt": "2026-10-18T18:35:00Z",
+      "content": "A developer who goes by Panchovix has released three tools that let NVIDIA GeForce RTX 50, RTX 40, and RTX 30-series owners run a modified VBIOS without writing anything to the card's flash chip. The… [+2074 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "Apple Expected to Release New Products on Next Four Fridays - MacRumors",
+      "description": "Apple likely plans to release MacBook Pro models with OLED displays, 14-inch MacBook Pro and iMac models with M6 chips, and/or an iPad mini 8 with an...",
+      "url": "https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/",
+      "urlToImage": "https://images.macrumors.com/t/2345fVS9Wh16988o2qY5zWvHd6Y=/2500x/article-new/2026/07/iPad-mini-7-Review-Thumb-1-sans-text.jpg",
+      "publishedAt": "2026-10-18T18:01:43Z",
+      "content": "Apple likely plans to release MacBook Pro models with OLED displays, 14-inch MacBook Pro and iMac models with M6 chips, and/or an iPad mini 8 with an OLED display on Friday, November 6, according to … [+569 chars]"
+    }
+  ]
+}
