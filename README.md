@@ -1,23 +1,36 @@
-# Two brains, zero single point of failure
+# Responsible AI News Summarizer
 
-**Track:** Module 2 — API integration · **When:** Week 3, Day 2 · **Status:** Required
+## What it does
+El usuario indica cuántas noticias quiere procesar, entre 3 y 5. El programa obtiene noticias sobre IA responsable mediante News API. OpenAI resume el título, la descripción y el fragmento disponible en hasta 60 palabras; después, Cohere clasifica el sentimiento del resumen. Al final, el usuario recibe el título, el enlace, el resumen, el sentimiento, los proveedores utilizados, los tokens y los costes estimados.
 
-This repository contains everything you need for this lab.
+## Setup
+python -m pip install -r requirements.txt
+cp .env.example .env 
+completar las claves en .env
+## How to run
+python main.py
+python -m pytest test_summarizer.py -v
+el usuario elige entre 3 y 5 noticias y que ejecutar la aplicación consume API.
 
-## Files
+## Example output
+See the [saved output record](evidence/output_record.json) from a real single-article run. It includes the summary, sentiment, provider names, token usage, and estimated costs.
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+## Cost analysis
+la ejecución guardada de tres noticias tuvo un coste estimado de 0.0009865 USD. El programa actual muestra el acumulado diario conocido.
+## Limitations
+- News API may provide truncated content. Summaries use only the available title, description, and excerpt.
+- Length and sentiment-label checks do not guarantee factual accuracy.
+- Costs are estimates. Failed requests without usage data may cause actual costs to exceed the recorded amount.
+- The daily budget file supports one application process at a time.
+- The fixed interval between calls does not guarantee compliance with every provider rate limit.
+- HTTP 429 errors are reported without automatic retries.
+- Fallback helps when one provider fails, but both providers can fail.
 
-## How to complete this lab
+## Lab evidence
+Start the review in [lab_proof.md](lab_proof.md).
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
-
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+- [Input article](evidence/input_article.json)
+- [Output from the same single-article run](evidence/output_record.json)
+- [Separate three-article execution trace](evidence/main_run.txt)
+- [Saved pytest results](evidence/pytest_results.txt)
+- [Learning summary](lab_summary.md)
