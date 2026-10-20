@@ -1,0 +1,9 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.pytest_cache/
+# El ejemplo sin claves SÍ se sube
+!.env.example
