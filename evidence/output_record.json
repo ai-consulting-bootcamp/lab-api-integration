@@ -1,0 +1,22 @@
+{
+  "title": "The lack of a shared lexicon is undermining responsible AI-military integration",
+  "url": "https://www.defenseone.com/ideas/2026/10/data-fragmentation-challenge-ai-military/416632/",
+  "summary": {
+    "text": "The article discusses the urgent need for a common lexicon among military AI stakeholders, emphasizing that the lack of a shared vocabulary and data is undermining responsible integration. While sensational headlines focus on dramatic concerns,the more pressing issue lies in the practical communication challenges faced across various services, agencies, and globally.",
+    "provider": "openai",
+    "model": "gpt-4o-mini-2024-07-18",
+    "input_tokens": 169,
+    "output_tokens": 60,
+    "estimated_cost_usd": 6.135e-05,
+    "fallback_used": false
+  },
+  "sentiment": {
+    "text": "neutral",
+    "provider": "cohere",
+    "model": "command-a-03-2025",
+    "input_tokens": 109.0,
+    "output_tokens": 1.0,
+    "estimated_cost_usd": 0.0002825,
+    "fallback_used": false
+  }
+}
