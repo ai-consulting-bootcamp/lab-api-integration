@@ -1,0 +1,33 @@
+run_id=13fcdf80 started_at=2026-10-20T01:31:50+02:00
+request category=technology count=3
+news_selection requested=5 received=4 discarded=0 selected=3 not_selected_due_to_limit=1 discard_reasons={}
+article_id=https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132 stage=summary status=starting
+task=Title: Apple Store plans reveal when the OLED iPad mini will likely go on sale … provider=openai model=gpt-4o-mini attempt=1 phase=primary
+task=Title: Apple Store plans reveal when the OLED iPad mini will likely go on sale … provider=openai model=gpt-4o-mini attempt=1 phase=primary usage=input=82 output=26 estimated_cost_usd=0.000028
+article_id=https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132 stage=summary provider=openai model=gpt-4o-mini attempts=1 usage=input=82 output=26 cost_usd=0.000028
+article_id=https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132 stage=sentiment status=starting
+task=Summary: The article discusses plans related to the Apple Store that indicate w… provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary
+task=Summary: The article discusses plans related to the Apple Store that indicate w… provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary usage=input=68 output=1 estimated_cost_usd=0.000003
+article_id=https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132 stage=sentiment provider=cohere model=command-r7b-12-2024 attempts=1 usage=input=68 output=1 cost_usd=0.000003 label=neutral
+article_id=https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132 stage=completed status=ok summary_provider=openai sentiment_provider=cohere total_cost_usd=0.000031
+article_id=https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing stage=summary status=starting
+task=Title: New Tools Let Users Edit and Load Modified VBIOS on GeForce RTX GPUs Wit… provider=openai model=gpt-4o-mini attempt=1 phase=primary
+task=Title: New Tools Let Users Edit and Load Modified VBIOS on GeForce RTX GPUs Wit… provider=openai model=gpt-4o-mini attempt=1 phase=primary usage=input=215 output=63 estimated_cost_usd=0.000070
+article_id=https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing stage=summary provider=openai model=gpt-4o-mini attempts=1 usage=input=215 output=63 cost_usd=0.000070
+article_id=https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing stage=sentiment status=starting
+task=Summary: A developer named Panchovix has introduced three tools that allow user… provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary
+task=Summary: A developer named Panchovix has introduced three tools that allow user… provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary usage=input=106 output=1 estimated_cost_usd=0.000004
+article_id=https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing stage=sentiment provider=cohere model=command-r7b-12-2024 attempts=1 usage=input=106 output=1 cost_usd=0.000004 label=positive
+article_id=https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing stage=completed status=ok summary_provider=openai sentiment_provider=cohere total_cost_usd=0.000074
+article_id=https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/ stage=summary status=starting
+task=Title: Apple Expected to Release New Products on Next Four Fridays - MacRumors … provider=openai model=gpt-4o-mini attempt=1 phase=primary
+task=Title: Apple Expected to Release New Products on Next Four Fridays - MacRumors … provider=openai model=gpt-4o-mini attempt=1 phase=primary usage=input=182 output=58 estimated_cost_usd=0.000062
+article_id=https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/ stage=summary provider=openai model=gpt-4o-mini attempts=1 usage=input=182 output=58 cost_usd=0.000062
+article_id=https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/ stage=sentiment status=starting
+task=Summary: Apple is expected to release new products over the next four Fridays, … provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary
+task=Summary: Apple is expected to release new products over the next four Fridays, … provider=cohere model=command-r7b-12-2024 attempt=1 phase=primary usage=input=99 output=1 estimated_cost_usd=0.000004
+article_id=https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/ stage=sentiment provider=cohere model=command-r7b-12-2024 attempts=1 usage=input=99 output=1 cost_usd=0.000004 label=positive
+article_id=https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/ stage=completed status=ok summary_provider=openai sentiment_provider=cohere total_cost_usd=0.000066
+selection_report={'requested': 5, 'received': 4, 'discarded': 0, 'selected': 3, 'not_selected_due_to_limit': 1, 'discard_reasons': {}}
+run_cost_usd=0.000171
+daily_spend_usd=0.000320

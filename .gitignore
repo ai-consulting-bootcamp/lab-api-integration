@@ -1,0 +1,16 @@
+﻿.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+**/__pycache__/
+**pycache**/
+*.pyc
+.pytest_cache/
+*.log
+.ipynb_checkpoints/
+.llm_budget_state.json
+
+/screenshots/main-run.png
+
+/screenshots/pytest-results.txt

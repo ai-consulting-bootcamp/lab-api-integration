@@ -1,0 +1,225 @@
+{
+  "category": "technology",
+  "count": 3,
+  "results": [
+    {
+      "article_index": 1,
+      "article_id": "https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132",
+      "title": "Apple Store plans reveal when the OLED iPad mini will likely go on sale - PhoneArena",
+      "source": "PhoneArena",
+      "url": "https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132",
+      "published_at": "2026-10-18T19:53:53Z",
+      "raw": {
+        "source": {
+          "id": null,
+          "name": "PhoneArena"
+        },
+        "author": "PhoneArena",
+        "title": "Apple Store plans reveal when the OLED iPad mini will likely go on sale - PhoneArena",
+        "description": null,
+        "url": "https://www.phonearena.com/news/apple-store-plans-reveal-when-the-oled-ipad-mini-will-likely-go-on-sale_id184132",
+        "urlToImage": null,
+        "publishedAt": "2026-10-18T19:53:53Z",
+        "content": null
+      },
+      "limitations": [
+        "Only the title was available."
+      ],
+      "status": "ok",
+      "summary": "The article discusses plans related to the Apple Store that indicate when the OLED iPad mini is expected to be available for sale.",
+      "sentiment": "neutral",
+      "summary_stage": {
+        "text": "The article discusses plans related to the Apple Store that indicate when the OLED iPad mini is expected to be available for sale.",
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "usage": {
+          "input_tokens": 82,
+          "output_tokens": 26
+        },
+        "estimated_cost_usd": "0.000028",
+        "attempt_cost_usd": "0.000028",
+        "attempts": 1
+      },
+      "sentiment_stage": {
+        "text": "neutral",
+        "provider": "cohere",
+        "model": "command-r7b-12-2024",
+        "usage": {
+          "input_tokens": 68,
+          "output_tokens": 1
+        },
+        "estimated_cost_usd": "0.000003",
+        "attempt_cost_usd": "0.000003",
+        "attempts": 1
+      },
+      "usage": {
+        "summary": {
+          "input_tokens": 82,
+          "output_tokens": 26
+        },
+        "sentiment": {
+          "input_tokens": 68,
+          "output_tokens": 1
+        }
+      },
+      "cost_usd": "0.000031",
+      "factual_providers": {
+        "summary": {
+          "provider": "openai",
+          "model": "gpt-4o-mini"
+        },
+        "sentiment": {
+          "provider": "cohere",
+          "model": "command-r7b-12-2024"
+        }
+      }
+    },
+    {
+      "article_index": 2,
+      "article_id": "https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing",
+      "title": "New Tools Let Users Edit and Load Modified VBIOS on GeForce RTX GPUs Without Flashing - TechPowerUp",
+      "source": "Techpowerup.com",
+      "url": "https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing",
+      "published_at": "2026-10-18T18:35:00Z",
+      "raw": {
+        "source": {
+          "id": null,
+          "name": "Techpowerup.com"
+        },
+        "author": null,
+        "title": "New Tools Let Users Edit and Load Modified VBIOS on GeForce RTX GPUs Without Flashing - TechPowerUp",
+        "description": "A developer who goes by Panchovix has released three tools that let NVIDIA GeForce RTX 50, RTX 40, and RTX 30-series owners run a modified VBIOS without writing anything to the card's flash chip. The first is a VBIOS editor for Windows and Linux that can chan…",
+        "url": "https://www.techpowerup.com/353849/new-tools-let-users-edit-and-load-modified-vbios-on-geforce-rtx-gpus-without-flashing",
+        "urlToImage": "https://www.techpowerup.com/img/SB1pKTE8BfCEeWMc.jpg",
+        "publishedAt": "2026-10-18T18:35:00Z",
+        "content": "A developer who goes by Panchovix has released three tools that let NVIDIA GeForce RTX 50, RTX 40, and RTX 30-series owners run a modified VBIOS without writing anything to the card's flash chip. The… [+2074 chars]"
+      },
+      "limitations": [
+        "NewsAPI content may be truncated and is not a full article text."
+      ],
+      "status": "ok",
+      "summary": "A developer named Panchovix has introduced three tools that allow users of NVIDIA GeForce RTX 30, 40, and 50 series GPUs to run modified VBIOS without needing to alter the card's flash chip. One of the tools is a VBIOS editor compatible with both Windows and Linux.",
+      "sentiment": "positive",
+      "summary_stage": {
+        "text": "A developer named Panchovix has introduced three tools that allow users of NVIDIA GeForce RTX 30, 40, and 50 series GPUs to run modified VBIOS without needing to alter the card's flash chip. One of the tools is a VBIOS editor compatible with both Windows and Linux.",
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "usage": {
+          "input_tokens": 215,
+          "output_tokens": 63
+        },
+        "estimated_cost_usd": "0.000070",
+        "attempt_cost_usd": "0.000070",
+        "attempts": 1
+      },
+      "sentiment_stage": {
+        "text": "positive",
+        "provider": "cohere",
+        "model": "command-r7b-12-2024",
+        "usage": {
+          "input_tokens": 106,
+          "output_tokens": 1
+        },
+        "estimated_cost_usd": "0.000004",
+        "attempt_cost_usd": "0.000004",
+        "attempts": 1
+      },
+      "usage": {
+        "summary": {
+          "input_tokens": 215,
+          "output_tokens": 63
+        },
+        "sentiment": {
+          "input_tokens": 106,
+          "output_tokens": 1
+        }
+      },
+      "cost_usd": "0.000074",
+      "factual_providers": {
+        "summary": {
+          "provider": "openai",
+          "model": "gpt-4o-mini"
+        },
+        "sentiment": {
+          "provider": "cohere",
+          "model": "command-r7b-12-2024"
+        }
+      }
+    },
+    {
+      "article_index": 3,
+      "article_id": "https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/",
+      "title": "Apple Expected to Release New Products on Next Four Fridays - MacRumors",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/",
+      "published_at": "2026-10-18T18:01:43Z",
+      "raw": {
+        "source": {
+          "id": null,
+          "name": "MacRumors"
+        },
+        "author": "Joe Rossignol",
+        "title": "Apple Expected to Release New Products on Next Four Fridays - MacRumors",
+        "description": "Apple likely plans to release MacBook Pro models with OLED displays, 14-inch MacBook Pro and iMac models with M6 chips, and/or an iPad mini 8 with an...",
+        "url": "https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/",
+        "urlToImage": "https://images.macrumors.com/t/2345fVS9Wh16988o2qY5zWvHd6Y=/2500x/article-new/2026/07/iPad-mini-7-Review-Thumb-1-sans-text.jpg",
+        "publishedAt": "2026-10-18T18:01:43Z",
+        "content": "Apple likely plans to release MacBook Pro models with OLED displays, 14-inch MacBook Pro and iMac models with M6 chips, and/or an iPad mini 8 with an OLED display on Friday, November 6, according to … [+569 chars]"
+      },
+      "limitations": [
+        "NewsAPI content may be truncated and is not a full article text."
+      ],
+      "status": "ok",
+      "summary": "Apple is expected to release new products over the next four Fridays, including MacBook Pro models featuring OLED displays, a 14-inch MacBook Pro, iMac models with M6 chips, and potentially an iPad mini 8 with an OLED display, starting on November 6.",
+      "sentiment": "positive",
+      "summary_stage": {
+        "text": "Apple is expected to release new products over the next four Fridays, including MacBook Pro models featuring OLED displays, a 14-inch MacBook Pro, iMac models with M6 chips, and potentially an iPad mini 8 with an OLED display, starting on November 6.",
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "usage": {
+          "input_tokens": 182,
+          "output_tokens": 58
+        },
+        "estimated_cost_usd": "0.000062",
+        "attempt_cost_usd": "0.000062",
+        "attempts": 1
+      },
+      "sentiment_stage": {
+        "text": "positive",
+        "provider": "cohere",
+        "model": "command-r7b-12-2024",
+        "usage": {
+          "input_tokens": 99,
+          "output_tokens": 1
+        },
+        "estimated_cost_usd": "0.000004",
+        "attempt_cost_usd": "0.000004",
+        "attempts": 1
+      },
+      "usage": {
+        "summary": {
+          "input_tokens": 182,
+          "output_tokens": 58
+        },
+        "sentiment": {
+          "input_tokens": 99,
+          "output_tokens": 1
+        }
+      },
+      "cost_usd": "0.000066",
+      "factual_providers": {
+        "summary": {
+          "provider": "openai",
+          "model": "gpt-4o-mini"
+        },
+        "sentiment": {
+          "provider": "cohere",
+          "model": "command-r7b-12-2024"
+        }
+      }
+    }
+  ],
+  "run_cost_usd": "0.000171",
+  "daily_spend_usd": "0.000320",
+  "failure_message": null
+}
