@@ -1,23 +1,69 @@
-# Two brains, zero single point of failure
 
-**Track:** Module 2 — API integration · **When:** Week 3, Day 2 · **Status:** Required
+# Multi-Provider News Summarizer
 
-This repository contains everything you need for this lab.
+A Python application that fetches technology news and uses multiple AI providers to summarize articles and analyze sentiment.
 
-## Files
+## Features
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- Fetches technology news using NewsAPI
+- Summarizes articles using OpenAI GPT-4o-mini
+- Analyzes sentiment using Cohere Command A
+- Falls back to Cohere if OpenAI summarization fails
+- Retries temporary API failures
+- Tracks estimated API token costs
+- Records daily estimated spending
+- Blocks new requests after the daily budget is reached
+- Supports processing 1–5 articles
+- Includes automated tests
 
-## How to complete this lab
+## Setup
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+Requires Python 3.11 or later.
 
-## Submission hygiene
+Install dependencies:
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env` file using `.env.example` as a template.
+
+Configure:
+
+- `OPENAI_API_KEY`
+- `COHERE_API_KEY`
+- `NEWS_API_KEY`
+
+Never commit real API keys.
+
+## Run
+
+```bash
+python main.py
+```
+
+Enter the number of articles to process.
+
+## Tests
+
+```bash
+python -m pytest -v
+```
+
+## Architecture
+
+NewsAPI retrieves articles.
+
+OpenAI generates summaries.
+
+Cohere performs sentiment analysis and serves as the fallback summarization provider.
+
+The application estimates token costs and records daily spending locally.
+
+## Limitations
+
+- NewsAPI may return truncated article content.
+- Cost tracking uses configured pricing estimates.
+- Budget enforcement is a soft limit, not a guaranteed spending cap.
+- API errors without HTTP status codes may still trigger retries.
+- The current retry and fallback tests do not cover every failure scenario.
