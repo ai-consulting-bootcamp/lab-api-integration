@@ -1,0 +1,25 @@
+$ python main.py
+Cuantas noticias de tecnologia quieres resumir? (1-5, q para salir): 3
+
+=== 3 de 3 noticias procesadas correctamente ===
+
+[OK] 1. JPMorgan Brings Its Deposit Token to the Ethereum Blockchain
+   Resumen (cohere): JPMorganChase amplia su presencia en el ambito de los pagos con blockchain al llevar su token de deposito, JPM Coin, a la red Ethereum. Este movimiento permite a los clientes institucionales del banco acceder a esta criptomoneda en la cadena de bloques Ethereum.
+   Sentimiento (cohere): positivo
+
+[OK] 2. India calls for action from Meta amid election protests
+   Resumen (cohere): El gobierno de India exige a Meta, la empresa propietaria de Facebook e Instagram, que revise sus algoritmos de recomendacion de contenido, debido a las preocupaciones sobre la difusion de informacion enganosa durante las protestas electorales. Las autoridades indias argumentan que la plataforma esta promoviendo contenido sesgado y potencialmente perjudicial, y piden una accion inmediata para garantizar la integridad de las elecciones.
+   Sentimiento (cohere): negativo
+
+[OK] 3. Public sector pay talks set to begin this afternoon
+   Resumen (cohere): Las conversaciones sobre los salarios del sector publico estan programadas para comenzar esta tarde en la Comision de Relaciones Laborales. El sindicato Siptu y su representante, Adrian Kane, participaran en las negociaciones, junto con el corresponsal de Trabajo y Tecnologia, Brian O'Donovan.
+   Sentimiento (cohere): neutral
+
+--- Resumen de costes ---
+cohere  command-r-08-2024  entrada= 277 salida=  55 coste=$0.000075
+cohere  command-r-08-2024  entrada= 278 salida=   4 coste=$0.000044
+cohere  command-r-08-2024  entrada= 255 salida=  81 coste=$0.000087
+cohere  command-r-08-2024  entrada= 306 salida=   4 coste=$0.000048
+cohere  command-r-08-2024  entrada= 283 salida=  59 coste=$0.000078
+cohere  command-r-08-2024  entrada= 284 salida=   3 coste=$0.000044
+TOTAL: $0.000376 de $5.00 de presupuesto diario

@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.16, pytest-9.1.1, pluggy-1.7.0
+rootdir: C:\Users\jaime\...\news-summarizer
+collected 14 items
+
+test_summarizer.py::test_cost_is_calculated_from_exact_tokens PASSED     [  7%]
+test_summarizer.py::test_budget_blocks_new_calls_when_spent PASSED       [ 14%]
+test_summarizer.py::test_retries_three_times_then_succeeds PASSED        [ 21%]
+test_summarizer.py::test_never_exceeds_max_retries PASSED                [ 28%]
+test_summarizer.py::test_bad_key_is_not_retried PASSED                   [ 35%]
+test_summarizer.py::test_no_credit_error_is_not_retried PASSED           [ 42%]
+test_summarizer.py::test_fallback_uses_secondary_when_primary_fails PASSED [ 50%]
+test_summarizer.py::test_both_providers_failing_raises PASSED            [ 57%]
+test_summarizer.py::test_one_failed_article_does_not_stop_the_rest PASSED [ 64%]
+test_summarizer.py::test_unexpected_sentiment_is_marked_undefined PASSED [ 71%]
+test_summarizer.py::test_duplicate_articles_are_removed PASSED           [ 78%]
+test_summarizer.py::test_huge_description_is_truncated_before_sending PASSED [ 85%]
+test_summarizer.py::test_news_removes_deleted_articles PASSED            [ 92%]
+test_summarizer.py::test_news_rejected_key_raises_clear_error PASSED     [100%]
+
+============================== 14 passed in 2.17s ==============================
