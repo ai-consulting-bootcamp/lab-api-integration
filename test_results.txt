@@ -1,0 +1,35 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.11.17, pytest-9.1.1, pluggy-1.6.0 -- /opt/anaconda3/envs/bootcamp-env/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/macbook-air/Desktop/AI consulting/Week3/Day1/lab-api-integration
+plugins: langsmith-0.14.11, platformdirs-4.12.3, anyio-4.15.1
+[1mcollecting ... [0mcollected 20 items
+
+test_summarizer.py::test_config_validate_passes_with_keys [32mPASSED[0m[33m         [  5%][0m
+test_summarizer.py::test_config_validate_reports_missing_keys [32mPASSED[0m[33m     [ 10%][0m
+test_summarizer.py::test_config_environment_settings [32mPASSED[0m[33m              [ 15%][0m
+test_summarizer.py::test_backoff_with_jitter_stays_within_bounds [32mPASSED[0m[33m  [ 20%][0m
+test_summarizer.py::test_jittered_retry_recovers_from_transient_failures [32mPASSED[0m[33m [ 25%][0m
+test_summarizer.py::test_budget_error_is_not_retried [32mPASSED[0m[33m              [ 30%][0m
+test_summarizer.py::test_circuit_breaker_opens_and_fails_fast [32mPASSED[0m[33m     [ 35%][0m
+test_summarizer.py::test_circuit_breaker_half_open_recovers [32mPASSED[0m[33m       [ 40%][0m
+test_summarizer.py::test_calculate_cost_uses_exact_tokens [32mPASSED[0m[33m         [ 45%][0m
+test_summarizer.py::test_track_request_updates_usage [32mPASSED[0m[33m              [ 50%][0m
+test_summarizer.py::test_budget_exceeded_raises [32mPASSED[0m[33m                   [ 55%][0m
+test_summarizer.py::test_fallback_used_when_primary_fails [32mPASSED[0m[33m         [ 60%][0m
+test_summarizer.py::test_no_fallback_when_primary_works [32mPASSED[0m[33m           [ 65%][0m
+test_summarizer.py::test_all_providers_failed [32mPASSED[0m[33m                     [ 70%][0m
+test_summarizer.py::test_openai_summary_is_passed_to_cohere [32mPASSED[0m[33m       [ 75%][0m
+test_summarizer.py::test_failed_article_does_not_stop_batch [32mPASSED[0m[33m       [ 80%][0m
+test_summarizer.py::test_batch_stops_when_budget_used_up [32mPASSED[0m[33m          [ 85%][0m
+test_summarizer.py::test_fetch_news_maps_asknews_articles [32mPASSED[0m[33m         [ 90%][0m
+test_summarizer.py::test_fetch_news_returns_empty_list_on_error [32mPASSED[0m[33m   [ 95%][0m
+test_summarizer.py::test_rate_limiter_waits_between_requests [32mPASSED[0m[33m      [100%][0m
+
+[33m=============================== warnings summary ===============================[0m
+../../../../../../../opt/anaconda3/envs/bootcamp-env/lib/python3.11/site-packages/asknews_sdk/dto/common.py:16
+  /opt/anaconda3/envs/bootcamp-env/lib/python3.11/site-packages/asknews_sdk/dto/common.py:16: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.13/migration/
+    class FilterParams(BaseModel):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m======================== [32m20 passed[0m, [33m[1m1 warning[0m[33m in 0.48s[0m[33m =========================[0m

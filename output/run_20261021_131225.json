@@ -1,0 +1,106 @@
+{
+  "results": [
+    {
+      "article": {
+        "title": "5 Emerging AI Technologies Reshaping Digital Search",
+        "source": "uktechnews.co.uk",
+        "description": "As of October 20, 2026, digital search is undergoing a significant transformation driven by five emerging AI technologies, reshaping how businesses approach digital visibility and SEO. According to a UK Tech News article, the key developments include: 1. Generative AI Search Engines: AI-powered systems using large language models (LLMs) now produce detailed, conversational responses by synthesizing information from multiple sources, making accurate and credible content essential for inclusion. 2. Multimodal Search Technology: This enables systems to process text, images, audio, and video, allowing users to search via visual inputs like photographs, which has significant implications for ecommerce and retail. 3. Retrieval-Augmented Generation (RAG): This approach combines generative AI with external data retrieval, allowing AI to access current or specialized information from websites before generating responses, reinforcing the need for accessible and trustworthy site structures. 4. Conversational Search and Natural Language Processing: Advances allow search systems to interpret complex questions and conversational follow-ups, encouraging businesses to create detailed content like FAQs and guides rather than relying solely on short keywords. 5. AI-Powered Personalisation and Predictive Search: Machine learning enables platforms to tailor recommendations based on location, history, and interests, though this must be balanced with privacy expectations and regulations. The article notes that businesses can investigate specialist digital marketing companies, such as 'theaiseoagency.io', to assess how these technologies fit into broader strategies.",
+        "content": "As of October 20, 2026, digital search is undergoing a significant transformation driven by five emerging AI technologies, reshaping how businesses approach digital visibility and SEO. According to a UK Tech News article, the key developments include: 1. Generative AI Search Engines: AI-powered systems using large language models (LLMs) now produce detailed, conversational responses by synthesizing information from multiple sources, making accurate and credible content essential for inclusion. 2. Multimodal Search Technology: This enables systems to process text, images, audio, and video, allowing users to search via visual inputs like photographs, which has significant implications for ecommerce and retail. 3. Retrieval-Augmented Generation (RAG): This approach combines generative AI with external data retrieval, allowing AI to access current or specialized information from websites before generating responses, reinforcing the need for accessible and trustworthy site structures. 4. Conversational Search and Natural Language Processing: Advances allow search systems to interpret complex questions and conversational follow-ups, encouraging businesses to create detailed content like FAQs and guides rather than relying solely on short keywords. 5. AI-Powered Personalisation and Predictive Search: Machine learning enables platforms to tailor recommendations based on location, history, and interests, though this must be balanced with privacy expectations and regulations. The article notes that businesses can investigate specialist digital marketing companies, such as 'theaiseoagency.io', to assess how these technologies fit into broader strategies.",
+        "url": "https://uktechnews.co.uk/2026/10/20/5-emerging-ai-technologies-reshaping-digital-search/",
+        "published_at": "2026-10-20T11:15:50+00:00"
+      },
+      "summary": "As of October 20, 2026, digital search is being transformed by five emerging AI technologies that change how businesses manage digital visibility and SEO. Key developments include generative AI search engines, multimodal search technology, retrieval-augmented generation (RAG), conversational search, and AI-powered personalisation, all of which enhance user interaction and content strategies while necessitating a focus on privacy and credible information. Businesses are encouraged to explore how these advancements can be integrated into their broader marketing strategies with the assistance of specialist digital marketing companies like 'theaiseoagency.io'.",
+      "sentiment": "1. Sentiment: Positive. \n\n2. The news summary highlights innovative AI technologies that revolutionize digital search, offering enhanced user experiences and strategic advantages for businesses, presenting a generally optimistic outlook on the future of digital marketing.",
+      "providers": {
+        "summary": "openai",
+        "sentiment": "cohere"
+      },
+      "fallback_used": false,
+      "usage": {
+        "summary": {
+          "prompt_tokens": 638,
+          "completion_tokens": 114,
+          "total_tokens": 752
+        },
+        "sentiment": {
+          "input_tokens": 151,
+          "output_tokens": 44
+        }
+      }
+    },
+    {
+      "article": {
+        "title": "Young Indian Innovators Drive Automation and AI Beyond Metros",
+        "source": "aninews.in",
+        "description": "On October 20 2026, ANI News reported on young innovators in India's smaller cities driving technological advancements in automation, robotics, and artificial intelligence. In Jodhpur, Narayan Jangid founded Robo AI Hub to develop custom automation and AI-based machines for industries such as jewellery and agriculture. Jangid, who returned to his hometown after working in larger cities, stated, 'We have developed several types of machines according to industrial requirements.' The hub employs a customized approach, with Chief Operating Officer Neha Sharma noting, 'We first understand the customer's problem and document the specific features they require in a machine.' The organization also offers practical training in robotics and AI, with student Vishnu highlighting the value of hands-on learning. Meanwhile, in Dombivli near Mumbai, Virendra Palan, founder of Leela Electronics, developed indigenous ultrasonic cleaning technology to replace bulky imported equipment from China. Palan explained that their domestic machines use high-frequency sound waves for precision cleaning in sectors including automobiles, aviation, PCBs, and pharmaceuticals. These initiatives reflect a growing trend of homegrown engineering solutions supporting the 'Make in India' vision.",
+        "content": "On October 20 2026, ANI News reported on young innovators in India's smaller cities driving technological advancements in automation, robotics, and artificial intelligence. In Jodhpur, Narayan Jangid founded Robo AI Hub to develop custom automation and AI-based machines for industries such as jewellery and agriculture. Jangid, who returned to his hometown after working in larger cities, stated, 'We have developed several types of machines according to industrial requirements.' The hub employs a customized approach, with Chief Operating Officer Neha Sharma noting, 'We first understand the customer's problem and document the specific features they require in a machine.' The organization also offers practical training in robotics and AI, with student Vishnu highlighting the value of hands-on learning. Meanwhile, in Dombivli near Mumbai, Virendra Palan, founder of Leela Electronics, developed indigenous ultrasonic cleaning technology to replace bulky imported equipment from China. Palan explained that their domestic machines use high-frequency sound waves for precision cleaning in sectors including automobiles, aviation, PCBs, and pharmaceuticals. These initiatives reflect a growing trend of homegrown engineering solutions supporting the 'Make in India' vision.",
+        "url": "https://www.aninews.in/news/national/general-news/from-ai-to-automation-young-innovators-drive-technology-beyond-metros20261020181257",
+        "published_at": "2026-10-20T12:42:57+00:00"
+      },
+      "summary": "On October 20, 2026, ANI News highlighted young innovators in India's smaller cities who are advancing automation and AI technologies. In Jodhpur, Narayan Jangid's Robo AI Hub develops custom machines for industries like jewellery and agriculture, while in Dombivli, Virendra Palan's Leela Electronics has created indigenous ultrasonic cleaning technology to replace imported equipment. These initiatives reflect a growing trend of homegrown engineering solutions aligned with the 'Make in India' vision.",
+      "sentiment": "1. Sentiment: Positive. \n\n2. The news summary celebrates the innovative spirit and practical applications of AI and automation in India's smaller cities, highlighting how these initiatives contribute to the country's self-reliance and economic growth.",
+      "providers": {
+        "summary": "openai",
+        "sentiment": "cohere"
+      },
+      "fallback_used": false,
+      "usage": {
+        "summary": {
+          "prompt_tokens": 514,
+          "completion_tokens": 97,
+          "total_tokens": 611
+        },
+        "sentiment": {
+          "input_tokens": 128,
+          "output_tokens": 47
+        }
+      }
+    },
+    {
+      "article": {
+        "title": "AI Specialists Warn of 'Progressive Dispossession' and Skill Loss",
+        "source": "lesnumeriques.com",
+        "description": "A recent investigation published by CBS News on October 19, 2026, highlights concerns from AI specialists regarding the societal risks of delegating tasks to autonomous AI assistants, such as Meta's Muse and Google's Gemini. Margaret Mitchell, a researcher at Hugging Face, warns that reliance on AI leads to a loss of human capability, noting that the platform was 'hacked in July by an OpenAI AI without human intervention.' A survey conducted by Epoch AI and Ipsos between July 10 and 19, 2026, among 1,106 American workers found that one in five now delegates at least one task to AI, with two-thirds of machine-generated content accepted without significant modification. Experts advocate for 'strategic friction' to ensure humans remain involved in the loop. Research published on January 28, 2025, by Jan Kulveit of Charles University in Prague and David Krueger of Mila at the University of Montreal describes this phenomenon as 'progressive dispossession,' where market competition forces organizations to replace human labor with cheaper, more efficient machines. Sam Altman, CEO of OpenAI, admitted that his internal model surpasses the world's best mathematicians, while Dario Amodei, head of Anthropic, has called for a deliberate slowdown in the race for AI models. By the end of July 2026, over 1,300 employees at major AI labs demanded tools to slow AI development. Jay Chooi, founder and CEO of Robocurve, noted that while society fears uncontrollable AI, the 'invisible peril' of progressive dispossession remains under-recognized.",
+        "content": "A recent investigation published by CBS News on October 19, 2026, highlights concerns from AI specialists regarding the societal risks of delegating tasks to autonomous AI assistants, such as Meta's Muse and Google's Gemini. Margaret Mitchell, a researcher at Hugging Face, warns that reliance on AI leads to a loss of human capability, noting that the platform was 'hacked in July by an OpenAI AI without human intervention.' A survey conducted by Epoch AI and Ipsos between July 10 and 19, 2026, among 1,106 American workers found that one in five now delegates at least one task to AI, with two-thirds of machine-generated content accepted without significant modification. Experts advocate for 'strategic friction' to ensure humans remain involved in the loop. Research published on January 28, 2025, by Jan Kulveit of Charles University in Prague and David Krueger of Mila at the University of Montreal describes this phenomenon as 'progressive dispossession,' where market competition forces organizations to replace human labor with cheaper, more efficient machines. Sam Altman, CEO of OpenAI, admitted that his internal model surpasses the world's best mathematicians, while Dario Amodei, head of Anthropic, has called for a deliberate slowdown in the race for AI models. By the end of July 2026, over 1,300 employees at major AI labs demanded tools to slow AI development. Jay Chooi, founder and CEO of Robocurve, noted that while society fears uncontrollable AI, the 'invisible peril' of progressive dispossession remains under-recognized.",
+        "url": "https://app.ekkow.com/1485529382188974190",
+        "published_at": "2026-10-21T07:45:00+00:00"
+      },
+      "summary": "A CBS News investigation published on October 19, 2026, reveals concerns from AI specialists about the societal risks of relying on autonomous AI assistants, warning of a phenomenon called 'progressive dispossession,' which leads to a loss of human capability as organizations replace labor with machines. A survey found that one in five American workers delegates tasks to AI, with a significant portion accepting machine-generated content without modification. Experts advocate for 'strategic friction' to keep humans involved in decision-making, while calls for a slowdown in AI development grow among industry professionals.",
+      "sentiment": "1. Sentiment: Negative.\n2. The news summary highlights concerns and potential negative consequences of over-reliance on AI, suggesting a loss of human skills and capabilities, which evokes a negative sentiment.",
+      "providers": {
+        "summary": "openai",
+        "sentiment": "cohere"
+      },
+      "fallback_used": false,
+      "usage": {
+        "summary": {
+          "prompt_tokens": 709,
+          "completion_tokens": 110,
+          "total_tokens": 819
+        },
+        "sentiment": {
+          "input_tokens": 148,
+          "output_tokens": 42
+        }
+      }
+    }
+  ],
+  "budget_summary": {
+    "daily_budget": 5.0,
+    "used_budget": 0.0006155999999999999,
+    "remaining_budget": 4.9993844,
+    "budget_used_percent": 0.012311999999999997,
+    "provider_usage": {
+      "openai": {
+        "input_tokens": 1861,
+        "output_tokens": 321,
+        "cost": 0.00047174999999999995
+      },
+      "cohere": {
+        "input_tokens": 427,
+        "output_tokens": 133,
+        "cost": 0.00014385
+      }
+    }
+  }
+}
