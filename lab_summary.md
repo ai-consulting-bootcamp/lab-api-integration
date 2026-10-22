@@ -1,0 +1,3 @@
+# Lab Summary
+
+The main challenge in this lab was connecting multiple external services and making sure data moved correctly from NewsAPI through two different AI providers. I solved this by separating the project into modules, testing each integration individually, and then combining OpenAI for news summarization with Cohere for sentiment analysis. I learned how to work with API keys securely using environment variables, retrieve external data, integrate multiple LLM providers, and structure an AI workflow with fallback possibilities. In the future, I would improve the project by adding stronger fallback and error handling, more automated tests, asynchronous processing, and more accurate cost tracking.
