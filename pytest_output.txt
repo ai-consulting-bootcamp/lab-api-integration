@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.17, pytest-9.1.1, pluggy-1.6.0 -- /opt/miniconda3/envs/bootcamp-env/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/pieteralbrecht/Desktop/IRONHACK/WEEK_3/WEEK_3_DAY_1/DAY_1_LAB
+plugins: langsmith-0.14.11, platformdirs-4.12.3, anyio-4.15.1
+collecting ... collected 19 items
+
+test_summarizer.py::test_calculate_cost_known_model PASSED               [  5%]
+test_summarizer.py::test_calculate_cost_unknown_model_uses_default_price PASSED [ 10%]
+test_summarizer.py::test_record_adds_up_costs PASSED                     [ 15%]
+test_summarizer.py::test_budget_exceeded_raises PASSED                   [ 21%]
+test_summarizer.py::test_rate_limiter_waits_when_limit_reached PASSED    [ 26%]
+test_summarizer.py::test_provider_retries_then_succeeds PASSED           [ 31%]
+test_summarizer.py::test_provider_gives_up_after_max_retries PASSED      [ 36%]
+test_summarizer.py::test_fallback_uses_backup_when_primary_fails PASSED  [ 42%]
+test_summarizer.py::test_fallback_not_used_when_budget_exceeded PASSED   [ 47%]
+test_summarizer.py::test_news_api_cleans_and_filters_articles PASSED     [ 52%]
+test_summarizer.py::test_news_api_returns_empty_list_on_error PASSED     [ 57%]
+test_summarizer.py::test_parse_sentiment[positive - good news for users-positive] PASSED [ 63%]
+test_summarizer.py::test_parse_sentiment[Negative - layoffs announced-negative] PASSED [ 68%]
+test_summarizer.py::test_parse_sentiment[**neutral** - just a product update-neutral] PASSED [ 73%]
+test_summarizer.py::test_parse_sentiment[I think this is fine-unknown] PASSED [ 78%]
+test_summarizer.py::test_build_article_text_handles_empty_description PASSED [ 84%]
+test_summarizer.py::test_process_article_builds_full_record PASSED       [ 89%]
+test_summarizer.py::test_process_articles_skips_failed_article PASSED    [ 94%]
+test_summarizer.py::test_process_articles_stops_on_budget PASSED         [100%]
+
+============================== 19 passed in 0.45s ==============================
