@@ -1,0 +1,36 @@
+{
+  "run_at": "2026-10-19T17:18:15.093796",
+  "category": "technology",
+  "models": {
+    "summary": "gpt-4o-mini",
+    "sentiment": "command-a-03-2025"
+  },
+  "input_articles": [
+    {
+      "title": "Show us your clutter, and we’ll tell you which generation you come from - The Washington Post",
+      "description": "Experts say that the type of stuff you have at home — figurines, encyclopedias, old electronics, water bottles — reflects the culture of your formative years.",
+      "content": "Each generation has its hallmarks slang, clothing, hair styles and historical touchstones that can give someone away as a boomer, a Gen Xer or a millennial. To those, add an unexpected generational s… [+22 chars]",
+      "url": "https://www.washingtonpost.com/home/2026/10/18/hallmarks-boomers-gen-x-millennials-seen-their-clutter/",
+      "source": "The Washington Post",
+      "published_at": "2026-10-18T12:04:28Z"
+    }
+  ],
+  "output_records": [
+    {
+      "title": "Show us your clutter, and we’ll tell you which generation you come from - The Washington Post",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/home/2026/10/18/hallmarks-boomers-gen-x-millennials-seen-their-clutter/",
+      "summary": "The Washington Post article highlights that the items people keep at home, such as figurines, encyclopedias, or old electronics, can reveal their generational identity, reflecting the cultural influences of their formative years. Experts note that each generation, from boomers to millennials, has distinct hallmarks like slang, fashion, and historical touchstones, and now, the clutter in their homes can also serve as a generational marker.",
+      "sentiment": "neutral",
+      "sentiment_reason": "The summary presents an objective observation about generational differences and cultural influences without expressing any positive or negative sentiment.",
+      "summary_provider": "cohere",
+      "sentiment_provider": "cohere",
+      "processed_at": "2026-10-19T15:18:15.093058+00:00"
+    }
+  ],
+  "cost_summary": {
+    "total_requests": 2,
+    "total_cost": 0.0016675000000000001,
+    "budget_remaining": 4.9983325
+  }
+}

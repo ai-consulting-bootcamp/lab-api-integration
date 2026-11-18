@@ -1,0 +1,20 @@
+============================================================
+Multi-Provider News Summarizer (OpenAI + Cohere)
+============================================================
+Categories: business, entertainment, general, health, science, sports, technology
+Category [technology]: How many articles (1-5) [3]: 
+Processing 1/1: Show us your clutter, and we’ll tell you which generation you come fro
+
+📰 Show us your clutter, and we’ll tell you which generation you come from - The Washington Post
+   Source: The Washington Post
+   Summary (openai): Experts suggest that the items people keep at home, such as figurines and old electronics, can reveal their generational identity, reflecting the culture of their formative years. Each generation is characterized by distinct slang, clothing, hairstyles, and historical touchstones that can indicate whether someone is a boomer, Gen Xer, or millennial.
+   Sentiment (cohere): neutral - The summary presents an informative observation about generational identity without expressing any positive or negative sentiment.
+
+💾 Run saved to output/run_20261019_171645.json
+
+💰 Cost summary (this session):
+   Requests:         2
+   Total cost:       $0.000496
+   Budget remaining: $4.9995
+
+Run again? (y/n) [n]: 

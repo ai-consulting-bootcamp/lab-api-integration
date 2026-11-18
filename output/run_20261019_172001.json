@@ -1,0 +1,55 @@
+{
+  "run_at": "2026-10-19T17:20:01.274740",
+  "category": "entertainment",
+  "models": {
+    "summary": "gpt-4o-mini",
+    "sentiment": "command-a-03-2025"
+  },
+  "input_articles": [
+    {
+      "title": "After Shane Gillis' \"Joke,\" Women Are Sharing How Men Really Act At The Gym - Yahoo",
+      "description": "",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNclFwS0hIMi12Zkt3dF9YOEJSVVZpUjJMSDRLMXpjdE5mbkNQdFkzYk9zOUpxajk4aW5sRjFCbVdxdThlczdCaG03cl85bk1sd04zN0UxRFlMc2ZKVTh1QUlwb0NKWklHelRFMzktQ0liT2RRWnBCMG9HX08ybEtUQkFMbUdpeUEycXUzX1RtaHo?oc=5",
+      "source": "Google News",
+      "published_at": "2026-10-18T11:46:02Z"
+    },
+    {
+      "title": "Ina Garten Shares Her Secret to Perfect Scrambled Eggs - WSJ",
+      "description": "",
+      "content": "",
+      "url": "https://www.wsj.com/arts-culture/food-cooking/ina-garten-happy-hour-podcast-barefoot-contessa-4478fb7c",
+      "source": "The Wall Street Journal",
+      "published_at": "2026-10-18T10:00:00Z"
+    }
+  ],
+  "output_records": [
+    {
+      "title": "After Shane Gillis' \"Joke,\" Women Are Sharing How Men Really Act At The Gym - Yahoo",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNclFwS0hIMi12Zkt3dF9YOEJSVVZpUjJMSDRLMXpjdE5mbkNQdFkzYk9zOUpxajk4aW5sRjFCbVdxdThlczdCaG03cl85bk1sd04zN0UxRFlMc2ZKVTh1QUlwb0NKWklHelRFMzktQ0liT2RRWnBCMG9HX08ybEtUQkFMbUdpeUEycXUzX1RtaHo?oc=5",
+      "summary": "The article discusses the reactions of women following comedian Shane Gillis' controversial joke about women in gyms. Many women have taken to social media to share their experiences and observations regarding men's behavior in gym settings, highlighting instances of disrespect and objectification. The conversation aims to shed light on the broader issue of how women are treated in fitness environments.",
+      "sentiment": "negative",
+      "sentiment_reason": "The summary highlights women's negative experiences and observations of disrespect and objectification in gym settings, sparked by a controversial joke, indicating a critical and unfavorable sentiment.",
+      "summary_provider": "openai",
+      "sentiment_provider": "cohere",
+      "processed_at": "2026-10-19T15:19:59.061310+00:00"
+    },
+    {
+      "title": "Ina Garten Shares Her Secret to Perfect Scrambled Eggs - WSJ",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/arts-culture/food-cooking/ina-garten-happy-hour-podcast-barefoot-contessa-4478fb7c",
+      "summary": "Ina Garten reveals her secret to making perfect scrambled eggs, emphasizing the importance of using fresh ingredients and cooking them slowly over low heat. She suggests whisking the eggs with a bit of cream and seasoning them lightly before cooking. Garten's technique results in creamy, flavorful eggs that are a staple in her cooking.",
+      "sentiment": "positive",
+      "sentiment_reason": "The summary highlights Ina Garten's successful technique for making perfect scrambled eggs, emphasizing the positive outcome of creamy, flavorful eggs and the importance of her method.",
+      "summary_provider": "openai",
+      "sentiment_provider": "cohere",
+      "processed_at": "2026-10-19T15:20:01.274147+00:00"
+    }
+  ],
+  "cost_summary": {
+    "total_requests": 4,
+    "total_cost": 0.0012395000000000002,
+    "budget_remaining": 4.9987605
+  }
+}

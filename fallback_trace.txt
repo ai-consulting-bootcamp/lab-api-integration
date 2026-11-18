@@ -1,0 +1,26 @@
+============================================================
+Multi-Provider News Summarizer (OpenAI + Cohere)
+============================================================
+Categories: business, entertainment, general, health, science, sports, technology
+Category [technology]: How many articles (1-5) [3]: 
+Processing 1/2: After Shane Gillis' "Joke," Women Are Sharing How Men Really Act At Th
+Processing 2/2: Ina Garten Shares Her Secret to Perfect Scrambled Eggs - WSJ
+
+📰 After Shane Gillis' "Joke," Women Are Sharing How Men Really Act At The Gym - Yahoo
+   Source: Google News
+   Summary (openai): The article discusses the reactions of women following comedian Shane Gillis' controversial joke about women in gyms. Many women have taken to social media to share their experiences and observations regarding men's behavior in gym settings, highlighting instances of disrespect and objectification. The conversation aims to shed light on the broader issue of how women are treated in fitness environments.
+   Sentiment (cohere): negative - The summary highlights women's negative experiences and observations of disrespect and objectification in gym settings, sparked by a controversial joke, indicating a critical and unfavorable sentiment.
+
+📰 Ina Garten Shares Her Secret to Perfect Scrambled Eggs - WSJ
+   Source: The Wall Street Journal
+   Summary (openai): Ina Garten reveals her secret to making perfect scrambled eggs, emphasizing the importance of using fresh ingredients and cooking them slowly over low heat. She suggests whisking the eggs with a bit of cream and seasoning them lightly before cooking. Garten's technique results in creamy, flavorful eggs that are a staple in her cooking.
+   Sentiment (cohere): positive - The summary highlights Ina Garten's successful technique for making perfect scrambled eggs, emphasizing the positive outcome of creamy, flavorful eggs and the importance of her method.
+
+💾 Run saved to output/run_20261019_172001.json
+
+💰 Cost summary (this session):
+   Requests:         4
+   Total cost:       $0.001240
+   Budget remaining: $4.9988
+
+Run again? (y/n) [n]: 
